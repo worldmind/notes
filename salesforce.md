@@ -76,8 +76,8 @@ Business trips for example.
 
 ## GUI configuring
 
-Peoples say that some tasks can be done without programming, it is good.
-But, it not about development, it is business side of product we must compare that with other CRM/ERP system.
+Peoples say that some tasks can be done without programming, it is good, but who are you - developer or sales?
+It is not about development, it is business side of product we must compare that with other CRM/ERP system.
 
 ## Money
 
