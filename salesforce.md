@@ -1,14 +1,17 @@
 # Why salesforce technology stack is not interesting for me
 
-First of all, I did not have any experience with Salesforce, but after reading some marketings posts about salesforce I got some opinion based on my experience.
+First of all, I did not have any experience with Salesforce, but after reading some articles about salesforce I got some opinion based on my experience. May be I miss something - I will be glad to know it.
 
-Second, I will write not about business value of Salesforce CRM, maybe it is very useful for business, but, as a developer, I will look from another side - is it looks like so interesting technology stack that somebody need moving to it from current stack?
-But my experience say me - if you plan hire developers for customization the best way is using free/open software. Some examples of open source CRM:
+Second, I will write not about business value of Salesforce CRM, maybe it is very useful for business, as a product Salasforce is very popular, but popularity of commercial products usually based not on technology (and sometimes not even on features), but on marketing.
+
+Third, my experience say me - if you plan hire developers for customization the best way is using free/open software. Some examples of open source CRM that I google quickly:
 * Odoo - Python (LGPL v3)
 * iDempiere - java (GPL v2)
 * openCRX - java (BSD)
 * Zurmo - php (AGPLv3)
 * OroCRM - php (OSL-3.0)
+
+I will look on Salesforce from another side - is it looks so interesting technology stack that somebody need moving to it from current stack?
 
 ## It's smell like project without Architector
 
