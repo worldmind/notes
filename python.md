@@ -244,3 +244,6 @@ mypy тут не ругнётся, а при выполнении случить
 
 ## GIL и товарищи
 
+
+интервал range
+https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html
