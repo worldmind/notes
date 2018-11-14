@@ -35,7 +35,7 @@
 
 ### Запуск
 
-Теперь у нас всё установлено и осталось сделать xonsh шеллом, для того, чтобы не менять ничего вне юзерской папки я использую следующий код (по мотивам [SO](https://unix.stackexchange.com/questions/136423/making-zsh-default-shell-without-root-access)) добавленный в `.bashrc` (если у вас другой шелл, то вы знаете что делать):
+Теперь у нас всё установлено и осталось сделать xonsh шеллом, для того, чтобы не менять ничего вне юзерской папки я использую следующий код (по мотивам [SO](https://unix.stackexchange.com/questions/136423/making-zsh-default-shell-without-root-access)) добавленный в `.bashrc`, если у вас другой шелл, то вы знаете что делать, только не стоит добавлять в `.profile`, случится зацикливание т.к. xonsh его тоже читает:
 
     # set default shell without editing /etc/shells
     if [ "${XONSH_VERSION:-unset}" = "unset" ] ; then
