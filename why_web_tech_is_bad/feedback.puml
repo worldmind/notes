@@ -1,0 +1,25 @@
+@startuml
+salt
+{
+  {
+    {+ Logo here } | {* Solutions | About | Feedback }
+    -- | *
+    Home / Request Information | *
+	-- | *
+    {+ big banner here } | *
+	-- | *
+  }
+  == Just Ask Us Anything
+  {
+  Subject: | " General request "
+  Name:    | "                 "
+  Phone:   | "                 "
+  E-mail:  | "                 "
+  Message: | "                 "
+  [X] Send me news | *
+  {+ CAPTCHA } | *
+  [SEND] | *
+  }
+  {! Term of use | Contact | We in FB | We in VK}
+}
+@enduml

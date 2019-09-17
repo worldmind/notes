@@ -1,0 +1,65 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.5,debug]{beamerposter}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{cite,enumerate,float,indentfirst}
+\usepackage{graphicx}
+%\usetheme{umbc2}
+
+\title{Haskell это круто!}
+\author{Alexey Shrub}
+\date{2015-09-29}
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Математика - лучший костыль для разума}
+\begin{itemize}
+\item Математика - фундамент успехов науки и технологий
+\pause
+\item Новые технологии одни проблемы решают, другие создают - упускаем что-то, 7+-2?
+\pause
+\item Гарантированно безопасное автоизменение кода (лень, параллель, оптимизация)
+\pause
+\item Доказательство программ
+\pause
+\item "Это вовсе не значит, что одна причина лучше двух; просто если вы предлагаете себе больше одной причины, значит, вы пытаетесь в чем-то себя убедить. Очевидные решения (неуязвимые в отношении ошибок) требуют не больше одной причины" Нассим Талеб
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Высокий уровень абстракции}
+\begin{itemize}
+\item Высокий уровень = эффективность разработки (МакКоннел)
+\pause
+\item Превращается в DSL (see on youtu.be: Programming - Why Haskell is Great)
+\pause
+\item Число строк в Warp (111188/12486/5270, ~500)
+\pause
+\item Выше уровень - умнее компилятор (подкапотный неблокирующий IO, управление памятью)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Подозрительный тип}
+\begin{itemize}
+\item Типы не хороши в прототипах, но хороши в продакшене
+\pause
+\item Чистота функций
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Просто круто}
+\begin{itemize}
+\item Суперпроффессиональное сообщество ( acid-state: "get stronger ACID guarantees than most RDBMS offer"!)
+\pause
+\item Реляционная алгебра для работы с СУБД с валидацие типов на стадии компиляции (HaskellDB)
+\pause
+\item warp vs nginx
+\pause
+\item Транзакционная память и много других плюшек которые в других языках ещё только изобретают ИМХО (см. Пол Грэм: «Месть ботанов» о Лиспе)
+\end{itemize}
+\end{frame}
+
+\end {document}
+

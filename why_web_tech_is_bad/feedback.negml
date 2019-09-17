@@ -1,0 +1,26 @@
+include: /header.negml
+include: /some-banner.negml
+Form:
+  caption: Just Ask Us Anything
+  body:
+    ComboBox:
+      label: Subject
+      items:
+        - General request
+    	- Special request
+    Edit:
+      label: Name
+    Edit:
+      label: Phone
+    Edit:
+      label: E-mail
+    TextArea:
+      label: Message
+    CheckBox:
+      label: Send me news
+    include: /captcha.negml
+    Button:
+      label: Send
+	  before: check_form()
+	  action: send()
+include: /footer.negml

@@ -1,0 +1,157 @@
+\documentclass{beamer}
+\usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.8,debug]{beamerposter}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{cite,enumerate,float,indentfirst}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\renewcommand{\alert}[1]{\textbf{#1}}
+
+\title{Why client-side web technologies are wrong and what technologies are right.}
+\author{Alexey Shrub aka worldmind\\http://mindstate.info}
+\logo{\includegraphics[height=1cm]{rs-logo.png}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Intro}
+ \begin{itemize}
+  \item Who is ...?
+  \pause
+  \item Not about technology.
+  \pause
+  \item Goal.
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{What we do?}
+ \begin{center}
+  Who is a good programmer?
+ \end{center}
+\end{frame}
+
+\begin{frame}{Who write code:}
+ \begin{itemize}
+  \item Correct
+  \item \alert{Readable}
+  \item \alert{Minimal and simple}.
+  \item And who can learn new.
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Readable}
+ \begin{center}
+  What is readable code?
+ \end{center}
+\end{frame}
+
+\begin{frame}[fragile]{Tool and readable code?}
+ \lstinputlisting[language=Perl, firstline=6, lastline=7]{in.pl}
+ \pause
+ \hrulefill
+ \lstinputlisting[language=Python, firstline=3, lastline=4]{in.py}
+\end{frame}
+
+\begin{frame}{JavaScript is not best tool}
+ \begin{itemize}
+  \item Bad design. Have fans, but ...
+  \pause
+  \item Frameworks leapfrog.
+  \pause
+  \item See: List of languages that compile to JS.
+  \pause
+  \item JS is a client-side Perl.
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Browsers}
+ \begin{itemize}
+  \item IE?
+  \pause
+  \item DOM? (React.js)
+ \end{itemize}
+\end{frame}
+
+
+\begin{frame}{HTML - tool from other universe}
+ \begin{itemize}
+  \item Hyper\textbf{TEXT}?
+  \pause
+  \item Not text - applications!
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Simple page}
+ \begin{center}
+  \includegraphics[scale=3]{feedback-300dpi.png}
+ \end{center}
+\end{frame}
+
+\begin{frame}[shrink]{Very simple example}
+ \lstinputlisting[firstline=8, lastline=22]{feedback.html}
+\end{frame}
+
+\begin{frame}{One tag to be enough for anybody}
+ \alert{DIV}
+\end{frame}
+
+\begin{frame}[shrink]{Not existing GUI markup language}
+ \lstinputlisting{feedback.negml}
+\end{frame}
+
+\begin{frame}[shrink]{PlantUML wireframe}
+ \lstinputlisting[firstline=4, lastline=23]{feedback.puml}
+\end{frame}
+
+\begin{frame}{CSS}
+ \begin{itemize}
+  \item Maybe not bad?
+  \pause
+  \item What is content for GUI?
+  \pause
+  \item What about tables for layout?
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Minimal}
+ \begin{center}
+  What is minimal code?
+ \end{center}
+\end{frame}
+
+\begin{frame}{Standing on the shoulders of giants}
+  \begin{itemize}
+  \item DRY
+  \item Use experience of civilization
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Where experience of desktop apps development?}
+ \begin{itemize}
+  \item Where TextEditor, Calendar, ProgressBar, Tree, CAPTCHA and other GUI Widgets?
+  \pause
+  \item QML? 
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{What to do?}
+ \begin{itemize}
+  \item Web Components.
+  \pause
+  \item PureQML/QmlWeb.
+ \end{itemize}
+\end{frame}
+
+\begin{frame}{Questions?}
+ \begin{center}
+  Алексей Шруб aka worldmind
+  
+  http://mindstate.info
+ \end{center}
+\end{frame}
+
+\end{document}

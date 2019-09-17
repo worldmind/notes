@@ -1,0 +1,32 @@
+Emacs cheet sheet
+
+Find (or Create) file: C-x C-f
+C-h k [home] should show you what 'Home' is bound to
+
+C - Ctrl, M - Alt
+ 1 Exit Emacs: C-x C-c
+ 2 Save file: C-x C-s
+ 3 UNDO: C-x u
+ 4 Move to start of file: C-Home (If not work use other terminal)
+ 5 Move to end of file: C-End
+ 6 Incremental search forward: C-s (inside search bufer C-s jump next match, outside search buffer C-s C-s make search next)
+ 7 Incremental search backward: C-r
+ 8 Go to line number: M-g g (I add C-l binding)
+ 9 Auto complete from current buffer: M-/
+10 Remove from current position to end of line: C-k
+11 Start vertical mark: C-x SPC
+12 To perform an unconditional search and replace, press M-x. Then enter: replace-string RET your_search_string RET your_replace_string
+13 Enable/disable past (noindent) mode: M-x electric-indent-mode
+14. Regex search: C-M-s (M-x isearch-forward-regexp) and C-M-r (isearch-backward-regexp)
+15. Regex replace: M-x replace-regexp
+capturing: \(\)
+16. C-M-f  Move forward over a balanced expression
+    C-M-b  Move backward over a balanced expression
+17. Show line numbers M-x linum-mode
+18. M-x describe-char
+19. Move to function definition
+  19.1. in project dir: find . -name "*.py" -print | etags -
+  19.2. in project dir: cat .dir-locals.el 
+((nil . ((tags-file-name . "~/project_dir/TAGS"))))
+  19.3. Move to function definition: M-. and M-, for return
+10. Close window C-x 1
