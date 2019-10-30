@@ -19,6 +19,11 @@ https://github.com/cdgriffith/Box/
 https://github.com/drgrib/dotmap
 https://github.com/Infinidat/munch
 
+## Immutable dict
+
+see some "Dict with dot notation"
+https://github.com/magicstack/immutables
+
 ## Dict with autovivification
 
 https://github.com/mewwts/addict
