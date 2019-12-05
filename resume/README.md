@@ -1,7 +1,7 @@
 ## My software development principles
 
-Disclaimer: it is about application level development, where maintainability
-is usually more important than performance, in system level development
+Disclaimer: it is about application-level development, where maintainability
+is usually more important than performance, in system level-development
 other priorities and other rules.
 
 ### Do not write a code if you can
@@ -57,4 +57,12 @@ only storable payment entity it's business scenario.
 ### Use your brain and brains of your team
 
 Do not be a radical via using those principles - exceptions is possible.
-Discuss and use code review!
+Discuss with rubber duck and humans!
+
+### No superheroes
+
+We all can make a mistake, our intellect was born in evolution not for software
+development, thus we must help to each other and use good practice for this help.
+I think that code review is most important practice for creating beatiful software.
+Supose that pair programming great thing too, but didn't try yet, and know that
+find two developer that can work together is not a simple task.
