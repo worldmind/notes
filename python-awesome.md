@@ -261,7 +261,7 @@ tidypy https://pypi.org/project/tidypy/#tools
 
 prospector https://prospector.readthedocs.io/en/latest/supported_tools.html#optional-extras
 
-## package management
+## Package management
 
 pip
 
@@ -276,3 +276,7 @@ https://github.com/Suor/funcy
 https://arrow.readthedocs.io/en/latest/
 
 https://github.com/myusuf3/delorean
+
+## Unicode
+
+https://github.com/LuminosoInsight/python-ftfy
