@@ -1,7 +1,7 @@
 ## My software development principles
 
 Disclaimer: it is about application-level development, where maintainability
-is usually more important than performance, in system level-development
+is usually more important than performance, in system-level development
 other priorities and other rules.
 
 ### Do not write a code if you can
@@ -24,12 +24,13 @@ it will be better than popular library that used by many people?
 In second - every line of code you wrote is risk too.
 
 Free/open-source libraries is preferred because you can fix something or
-pay somebody for fix (it will be cheapest than write own module).
+pay somebody for fix (it will be cheaper than write own module).
 
 ### Write code for reading and for readers
 
 Good code must be readable almost like a book in English. Naming is matter!
 DSL is a best language for application level development.
+
 Do not optimize your code before:
 * you have a real issue with performance
 * you find a best place for optimization via profiler
@@ -47,12 +48,12 @@ small modules and etc, our brains is very limited.
 
 You system is a __model__ of part of the reality - correct model will be
 enough flexible.
-Model it is not just storable entities! - it's common mistake, thus I need to
-describe example: lets imagine that you work in hosting company, you have clients,
+Model it is not just storable entities! - it's common mistake, so, better to explain with
+an example: lets imagine that you work in hosting company, you have clients,
 clients have a services like domains, hosting of different types and etc.
 If client sent payment, you need to perform some actions - create, activate or prolong all
 payed services. This scenario is a part of model of hosting business, model is not
-only storable payment entity it's business scenario.
+only storable payment entity - it's business scenario.
 
 ### Use your brain and brains of your team
 
